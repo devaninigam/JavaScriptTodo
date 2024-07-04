@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Task Management UI</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="user-info">
+        <!-- <img src="profile-picture.png" alt="User Picture" class="user-img"> -->
+        <p class="user-name">Todo Filter </p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li onclick="hello(`all`)" class="nav-item cureser-pointer"><span class="dot all"></span> All</li>
+          <li onclick="hello(`ongoing`)" class="nav-item cureser-pointer"><span class="dot ongoing"></span> OnGoing</li>
+          <li onclick="hello(`completed`)" class="nav-item cureser-pointer"><span class="dot completed"></span>
+            Completed </li>
+        </ul>
+      </nav>
+      <nav class="settings">
+        <ul>
+          <li class="settings-item">
+            Filter Data
+          </li>
+          <li class="settings-item">
+            <form class="task-input" id="todo-filter-form">
+              <input type="text" placeholder="Filter You task" id="todo-filter-value" class="task-input-field">
+              <input type="submit" class="task-input-btn" value=">" />
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header class="main-header">
+        <h1>Today main focus</h1>
+        <h2>Design team meeting</h2>
+      </header>
+      <form class="task-input" id="todo-form">
+        <input type="text" placeholder="What is your next task?" id="todo-value" class="task-input-field">
+        <input type="submit" class="task-input-btn" value="+" />
+      </form>
+      <ul class="task-list">
+      </ul>
+    </main>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
