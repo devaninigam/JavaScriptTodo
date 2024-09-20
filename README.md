@@ -25,7 +25,7 @@ A simple and interactive Task Management web application that allows users to ad
 1. Clone the repository:
 
    \`\`\`bash
-   git clone https://github.com/yourusername/task-management-ui.git
+   git clone [https://github.com/yourusername/task-management-ui.git](https://github.com/devaninigam/task-management-ui)
    \`\`\`
 
 2. Navigate to the project directory:
