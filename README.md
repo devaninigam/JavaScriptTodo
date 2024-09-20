@@ -1,6 +1,9 @@
 
 # Task Management UI
 
+![Task Management UI Screenshot](https://github.com/user-attachments/assets/77323883-7aad-49b0-a0df-2ad0e39b07bb)
+
+
 A simple and interactive Task Management web application that allows users to add, filter, and manage their daily tasks with an intuitive interface.
 
 ## Features
